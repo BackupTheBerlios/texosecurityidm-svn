@@ -46,5 +46,5 @@ public class ColorManager {
 			fColorTable.put(rgb, color);
 		}
 		return color;
-	}
+	} 
 }
