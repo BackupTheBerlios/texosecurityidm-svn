@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id$
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://schemas.xmlsoap.org/soap/envelope/"
+            class="org.xmlsoap.schemas.soap.soapenvelope.EnvelopePackage"
+            genModel="model/wssecurity.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="envelope"
+            class="org.xmlsoap.schemas.soap.soapenvelope.util.EnvelopeResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+            class="org.open.oasis.docs.wss._2004._01.oasis._200401.wss.wssecurity.secext._1.wssecuritysecext._0Package"
+            genModel="model/wssecurity.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="_0"
+            class="org.open.oasis.docs.wss._2004._01.oasis._200401.wss.wssecurity.secext._1.wssecuritysecext.util._0ResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.w3.org/2000/09/xmldsig#"
+            class="org.w3._2000._09.xmldsig.XmldsigPackage"
+            genModel="model/wssecurity.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="xmldsig"
+            class="org.w3._2000._09.xmldsig.util.XmldsigResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+            class="org.open.oasis.docs.wss._2004._01.oasis._200401.wss.wssecurity.utility._1.wssecurityutility._0Package"
+            genModel="model/wssecurity.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="_0"
+            class="org.open.oasis.docs.wss._2004._01.oasis._200401.wss.wssecurity.utility._1.wssecurityutility.util._0ResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://schemas.xmlsoap.org/ws/2003/06/utility"
+            class="org.xmlsoap.schemas.ws._2003._06.wsutility.UtilityPackage"
+            genModel="model/wssecurity.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="utility"
+            class="org.xmlsoap.schemas.ws._2003._06.wsutility.util.UtilityResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.w3.org/2005/08/addressing"
+            class="org.w3._2005._08.wsaddressing.AddressingPackage"
+            genModel="model/wssecurity.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="addressing"
+            class="org.w3._2005._08.wsaddressing.util.AddressingResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://schemas.xmlsoap.org/ws/2004/09/policy"
+            class="org.xmlsoap.schemas.ws._2004._09.wspolicy.PolicyPackage"
+            genModel="model/wssecurity.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="policy"
+            class="org.xmlsoap.schemas.ws._2004._09.wspolicy.util.PolicyResourceFactoryImpl"/>
+      <parser
+            class="org.xmlsoap.schemas.ws._2004._09.wspolicy.util.PolicyResourceFactoryImpl"
+            type="wsp">
+      </parser>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702"
+            class="org.open.oasis.docs.ws.sx.ws.securitypolicy.wssecuritypolicy._200702Package"
+            genModel="model/wssecurity.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="_200702"
+            class="org.open.oasis.docs.ws.sx.ws.securitypolicy.wssecuritypolicy.util._200702ResourceFactoryImpl"/>
+      <parser
+            class="org.open.oasis.docs.ws.sx.ws.securitypolicy.wssecuritypolicy.util._200702ResourceFactoryImpl"
+            type="wsp">
+      </parser>
+   </extension>
+
+</plugin>
