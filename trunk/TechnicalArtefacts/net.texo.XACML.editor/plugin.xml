@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="XACML XML Editor"
+            extensions="xacml"
+            icon="icons/schloss2.png"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            class="net.texo.xacml.editor.editors.XACMLEditor"
+            id="net.texo.xacml.editor.editors.XACMLEditor">
+      </editor>
+   </extension>
+
+</plugin>
