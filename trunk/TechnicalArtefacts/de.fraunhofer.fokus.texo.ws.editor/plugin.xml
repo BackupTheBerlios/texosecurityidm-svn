@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id$
+-->
+
+<plugin>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="org.xmlsoap.schemas.ws._2004._09.wspolicy.presentation.PolicyEditorID"
+            name="WS-Security Policy Visualizer"
+            icon="icons/schloss2.png"
+            extensions="policy"
+            class="org.xmlsoap.schemas.ws._2004._09.wspolicy.presentation.PolicyEditor"
+            contributorClass="org.xmlsoap.schemas.ws._2004._09.wspolicy.presentation.PolicyActionBarContributor">
+      </editor>
+   </extension>
+
+
+
+</plugin>
