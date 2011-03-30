@@ -1,0 +1,7 @@
+net.texo.USDLSecurityEditor
+net.texo.USDLSecurityEditor.exceptions
+net.texo.USDLSecurityEditor.listener
+net.texo.USDLSecurityEditor.proxies
+net.texo.USDLSecurityEditor.ui
+net.texo.USDLSecurityEditor.util
+test

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension point="org.eclipse.ui.editors">
+		<editor
+            class="net.texo.USDLSecurityEditor.SecurityEditor"
+            extensions="xml, usdl, usdl3"
+            icon="icons/usdl_enabled.gif"
+            id="net.texo.USDLSecurityEditor.SecurityEditor"
+            name="USDLSecurityEditor">
+		</editor>
+	</extension>
+	<extension
+       id="net.texo.USDLSecurityEditor"
+       name="USDL Security"
+       point="org.eclipse.core.runtime.products">
+		<product name="USDL Security - Fraunhofer FOKUS prototype developed within the THESEUS TEXO research project" application="org.eclipse.platform.ide">
+			<property name="windowImages" value="icons/usdl_icon16.gif,icons/usdl_icon32.gif"/>
+			<property name="aboutImage" value="icons/usdl_icon32.gif"/>
+			<property name="appName" value="USDL Security"/> 
+			<property name="aboutText" value="USDL Security module for the modeling and transformation of security requirements of a service"/>
+		</product>
+	</extension>
+	<extension point="org.eclipse.ui.preferencePages">
+ 		<page id="USDLSecurityPreferences"
+ 			  name="USDL Security"
+   			  class="net.texo.USDLSecurityEditor.SecurityPreferencePage">
+  		</page>
+	</extension>
+</plugin>
