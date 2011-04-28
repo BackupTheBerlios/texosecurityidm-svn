@@ -53,8 +53,8 @@ public class SecurityEditor extends FormEditor {
 	public static final String SECURITY_ONTOLOGY_KEY = "net.texo.USDLSecurityEditor.SecurityOntology";
 	public static final String SECURITY_PROFILE_KEY = "net.texo.USDLSecurityEditor.SecurityProfile";
 
-	public static final String DEFAULT_SECURITY_ONTOLOGY_URL = "http://www.fokus.fraunhofer.de/texo/ontologies/security.owl";
-	public static final String DEFAULT_SECURITY_PROFILE_URL = "http://www.fokus.fraunhofer.de/texo/ontologies/security_profile.owl";
+	public static final String DEFAULT_SECURITY_ONTOLOGY_URL = "http://texosecurityidm.berlios.de/ontologies/security.owl";
+	public static final String DEFAULT_SECURITY_PROFILE_URL = "http://texosecurityidm.berlios.de/ontologies/security_profile.owl";
 
 	/** The dirty flag. */
 	boolean dirtyFlag;
